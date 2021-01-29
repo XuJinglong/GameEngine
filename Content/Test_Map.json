@@ -1,0 +1,62 @@
+{
+  "actors": {
+    "actor1": {
+      "position": [ -50, 50, 50 ]
+    },
+    "actor2": {
+      "position": [ 0, 50, 50 ]
+    },
+    "actor3": {
+      "position": [ 50, 50, 50 ]
+    },
+    "actor4": {
+      "position": [ -50, 0, 50 ]
+    },
+    "actor5": {
+      "position": [ 0, 0, 50 ]
+    },
+    "actor6": {
+      "position": [ 50, 0, 50 ]
+    },
+    "actor7": {
+      "position": [ -50, -50, 50 ]
+    },
+    "actor8": {
+      "position": [ 0, -50, 50 ]
+    },
+    "actor9": {
+      "position": [ 50, -50, 50 ]
+    },
+    "floor": {
+      "mesh": "Content/floor.fbx",
+      "material": "Content/M_Floor.json",
+      "position": [ 0, -90, 0 ],
+      "rotation": [90, 0, 0]
+    },
+    "wall1": {
+      "mesh": "Content/wall.fbx",
+      "material": "Content/M_Wall.json",
+      "position": [ -120, 80, -10 ],
+      "rotation": [ 0, 90, 0 ]
+    }
+  },
+  "point_lights": {
+    "light1": {
+      "position": [ 0, 0, -50 ],
+      "color": [ 0, 0, 1 ]
+    },
+    "light2": {
+      "position": [ 50, 0, -50 ],
+      "color": [ 0, 1, 0 ]
+    },
+    "light3": {
+      "position": [ -50, 0, -50 ],
+      "color": [1, 0, 0 ]
+    }
+  },
+  "direction_light":
+  {
+    "direction": [ 1, 1, 0 ],
+    "color": [1, 1, 1]
+  }
+}

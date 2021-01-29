@@ -1,0 +1,13 @@
+Debug/
+
+x64/
+
+.vs/
+
+Source/Third/Assimp/assimp-master/
+
+Source/Third/imgui/
+
+Source/Third/lua/
+
+Source/Third/stb/stb-master/
